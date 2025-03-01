@@ -8,6 +8,11 @@
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
+;; Function parameter types
+(function_parameter_types
+  "(" @delimiter
+  ")" @delimiter @sentinel) @container
+
 ;; Function definitions
 (arguments
   "(" @delimiter
