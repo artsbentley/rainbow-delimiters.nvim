@@ -49,10 +49,9 @@
   "]" @delimiter @sentinel) @container
 
 ;; List pattern
-(list
+(list_pattern
   "[" @delimiter
   "]" @delimiter @sentinel) @container
-
 
 ;; Bit strings
 (bit_string
