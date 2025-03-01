@@ -9,9 +9,9 @@
   ")" @delimiter @sentinel) @container
 
 ;; Function definitions
-; (function
-;   "(" @delimiter
-;   ")" @delimiter @sentinel) @container
+(arguments
+  "(" @delimiter
+  ")" @delimiter @sentinel) @container
 
 ;; Type definitions
 (type_definition
