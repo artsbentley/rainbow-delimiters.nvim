@@ -13,6 +13,16 @@
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
+ ;; record pattern arguments; Ok(_)
+(record_pattern_arguments
+  "(" @delimiter
+  ")" @delimiter @sentinel) @container
+
+;; unqualified imports
+(unqualified_imports
+  "{" @delimiter
+  "}" @delimiter @sentinel) @container
+
 ;; Type definitions
 (type_definition
   "{" @delimiter
