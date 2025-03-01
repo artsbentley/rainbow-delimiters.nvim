@@ -8,6 +8,10 @@
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
+(case
+  "{" @delimiter
+  "}" @delimiter @sentinel) @container
+
 ;; Use `block` instead of `function_body`
 (block
   "{" @delimiter
