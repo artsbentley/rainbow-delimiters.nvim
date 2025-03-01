@@ -18,6 +18,11 @@
   "(" @delimiter
   ")" @delimiter @sentinel) @container
 
+;; type arguments
+(type_arguments
+  "(" @delimiter
+  ")" @delimiter @sentinel) @container
+
 ;; unqualified imports
 (unqualified_imports
   "{" @delimiter
