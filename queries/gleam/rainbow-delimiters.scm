@@ -48,6 +48,12 @@
   "[" @delimiter
   "]" @delimiter @sentinel) @container
 
+;; List pattern
+(list
+  "[" @delimiter
+  "]" @delimiter @sentinel) @container
+
+
 ;; Bit strings
 (bit_string
   "<<" @delimiter
