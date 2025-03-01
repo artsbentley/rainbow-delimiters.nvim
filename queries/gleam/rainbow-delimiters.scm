@@ -13,10 +13,6 @@
   "{" @delimiter
   "}" @delimiter @sentinel) @container
 
-(case_clause
-  "{" @delimiter
-  "}" @delimiter @sentinel) @container
-
 (list
   "[" @delimiter
   "]" @delimiter @sentinel) @container
